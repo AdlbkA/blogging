@@ -41,8 +41,8 @@ go run main.go
 3. API will be available at ```http://localhost:8080```
 
 ## API Endpoints
-## Posts
-- ### Create Post
+### Posts
+- #### Create Post
   - Method: ```POST```
   - URL: ```/post```
   - Body:
@@ -55,15 +55,15 @@ go run main.go
     }
     ```
   - Response: ```201 Created```
-- ### Get All Posts
+- #### Get All Posts
     - Method: ```GET```
     - URL: ```/post```
     - Response: ```200 OK```
-- ### Get Post by ID
+- #### Get Post by ID
     - Method: ```GET```
     - URL: ```/post/{id}```
     - Response: ```200 OK```
-- ### Update Post
+- #### Update Post
     - Method: ```PUT```
     - URL: ```/post/{id}```
     - Body:
@@ -76,7 +76,7 @@ go run main.go
       }
       ```
     - Response: ```200 OK```
-- ### Delete Post
+- #### Delete Post
     - Method: ```DELETE```
     - URL: ```/post/{id}```
     - Response: ```200 OK```
